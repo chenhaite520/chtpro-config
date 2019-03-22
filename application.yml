@@ -1,14 +1,14 @@
-spring:
+﻿spring:
   profiles:
     active:
     - dev
 
--------------
+---
 spring:
     profiles: dev
     application:
           name: chtpro-config-haite-dev
-------------
+---
 spring:
     profiles: test
     application:
