@@ -5,11 +5,11 @@ spring:
 
 -------------
 spring:
-        profiles: dev
-        application:
+    profiles: dev
+    application:
           name: chtpro-config-haite-dev
 ------------
 spring:
-       profiles: test
-       application:
-         name: chtpro-config-haite-test
+    profiles: test
+    application:
+     name: chtpro-config-haite-test
