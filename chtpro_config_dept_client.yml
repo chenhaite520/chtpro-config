@@ -4,9 +4,9 @@ spring:
     - dev
 
 ---
-
 server:
   port: 8001
+
 spring:
     profiles: dev
     application:
@@ -19,8 +19,6 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
 
 spring:
-   application:
-    name: chtpro-dept
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
@@ -47,8 +45,8 @@ info:
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 
----
 
+---
 server:
   port: 8001
 spring:
@@ -63,8 +61,6 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
 
 spring:
-   application:
-    name: chtpro-dept
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
