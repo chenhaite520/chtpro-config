@@ -4,6 +4,7 @@ spring:
     - dev
 
 ---
+
 server:
   port: 8001
 spring:
@@ -45,7 +46,9 @@ info:
   company.name: www.haite.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+
 ---
+
 server:
   port: 8001
 spring:
